@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <ColorPicker></ColorPicker>
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
@@ -7,10 +8,12 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import ColorPicker from './components/ComponentColorPicker.vue'
 
 export default {
   name: 'app',
   components: {
+    ColorPicker,
     HelloWorld
   }
 }
